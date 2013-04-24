@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.4
+4 verbose node symlink /usr/bin/node
+5 verbose read json /home/mark/github/nodejsServerWithTests/package.json
+6 warn package.json nodejsMongoApiExample@0.0.1 No README.md file found!
+7 verbose run-script [ 'prestart', 'start', 'poststart' ]
+8 info prestart nodejsMongoApiExample@0.0.1
+9 info start nodejsMongoApiExample@0.0.1
+10 verbose unsafe-perm in lifecycle true
+11 silly exec sh "-c" "node ./src/server.js"
+12 silly sh,-c,node ./src/server.js,/home/mark/github/nodejsServerWithTests spawning
+13 info nodejsMongoApiExample@0.0.1 Failed to exec start script
+14 error nodejsMongoApiExample@0.0.1 start: `node ./src/server.js`
+14 error `sh "-c" "node ./src/server.js"` failed with 8
+15 error Failed at the nodejsMongoApiExample@0.0.1 start script.
+15 error This is most likely a problem with the nodejsMongoApiExample package,
+15 error not with npm itself.
+15 error Tell the author that this fails on your system:
+15 error     node ./src/server.js
+15 error You can get their info via:
+15 error     npm owner ls nodejsMongoApiExample
+15 error There is likely additional logging output above.
+16 error System Linux 3.2.0-40-generic-pae
+17 error command "/usr/bin/node" "/usr/bin/npm" "start"
+18 error cwd /home/mark/github/nodejsServerWithTests
+19 error node -v v0.10.4
+20 error npm -v 1.2.18
+21 error code ELIFECYCLE
+22 verbose exit [ 1, true ]
